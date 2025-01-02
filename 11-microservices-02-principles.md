@@ -16,7 +16,7 @@
 Обоснуйте свой выбор.
 
 ### Решение
-Возьмём API Gateway, походящие под условия и чаще всего упоминаемые во всевозможных топах: Kong Gateway, Apache APISIX, Tyk, KrakenD, Amazon API Gateway.
+ API Gateway, походящие под условия и чаще всего упоминаемые во всевозможных топах: Kong Gateway, Apache APISIX, Tyk, KrakenD, Amazon API Gateway.
 
 
 | Критерий | Kong Gateway | Apache APISIX | Tyk | KrakenD | Amazon API Gateway |
@@ -29,7 +29,6 @@
 | Управление трафиком | Timeout, Retry, Circuit Breaker, Rate Limit | Rate Limit, Circuit Breaker, Retry, Timeout | Rate Limit, Circuit Breaker, Timeout, Retry | Rate Limit, Circuit Breaker, Timeout, Retry, Bot detector | Timeout, Retry, Circuit Breaker, Rate Limit |
 | Мониторинг | Built-in, Prometheus, Datadog, StatsD | Prometheus | Built-in | OpenTelemetry, Prometheus, InfluxDB, Datadog, AWS X-Ray, Azure Monitor и др. | Amazon CloudWatch Alarms, Amazon CloudWatch Logs, Amazon EventBridge, AWS CloudTrail Log Monitoring |
 
-Т.к. практически все решения предоставляют сравнение с Kong, это наиболее распространённое решение. Kong имеет развитую документацию и большое комьюнити, что является плюсом на этапе внедрения.
 
 
 ## Задача 2: Брокер сообщений
@@ -67,7 +66,7 @@ RabbitMQ (с 3.10.0), Kafka, ActiveMQ, Redis (при fsync every write), Apache 
 * Простота эксплуатации.<br/>
 RabbitMQ или ActiveMQ примерно одинаковые по сложности системы.
 
-Итого, RabbitMQ и ActiveMQ. При сравнении RabbitMQ назвают решением проще и упоминается чаще , чем ActiveMQ .
+Мой выбор  RabbitMQ и ActiveMQ. 
 
 
 ## Задача 3: API Gateway * (необязательная)
